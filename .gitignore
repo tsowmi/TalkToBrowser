@@ -1,0 +1,27 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.next/
+coverage/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Browser sessions and automation artifacts
+.auth/
+playwright/.auth/
+browser-profile/
+user-data-dir/
+test-results/
+playwright-report/
+
+# Local logs and editor files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
